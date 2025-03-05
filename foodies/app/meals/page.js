@@ -27,6 +27,7 @@ export default function MealsPage() {
       </header>
       <main className={classes.main}>
         <Suspense fallback={<p className={classes.loading}>Fetching meals...</p>}>
+          {/* 이곳이 http://localhost:3000/meals */}
           <Meals />
         </Suspense>
       </main>
