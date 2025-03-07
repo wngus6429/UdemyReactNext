@@ -23,6 +23,9 @@ export default function MealsPage() {
             <Link href="/community">Join the Community</Link>
             <Link href="/meals">Explore Meals</Link>
           </div>
+          <p className={classes.cta}>
+            <Link href="/meals/share">Share Your Favorite Recipe</Link>
+          </p>
         </div>
       </header>
       <main className={classes.main}>
